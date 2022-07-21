@@ -46,10 +46,13 @@ winningMove([1,3],[3,3]) //should return "winning move in row 3"
 
 console.log(winningMove([1,3],[3,3]));
 //Winning move is in row 3
+
 console.log(winningMove([1,3],[2,3]));
 //Winning move is in row 3
+
 console.log(winningMove([1,3],[1,1]));
 //Winning move is in column 1 
+
 console.log(winningMove([1,3],[1,2]));
 //Winning move is in column 1
 
@@ -74,9 +77,12 @@ console.log(winningMove([1,3],[1,2]));
 
 console.log(winningMoveExtra([1,3],[3,3]));
 //Winning move is in row 3 column 2
+
 console.log(winningMoveExtra([1,3],[2,3]));
 //Winning move is in row 3 column 3
+
 console.log(winningMoveExtra([1,3],[1,1]));
 //Winning move is in column 1 row 2
+
 console.log(winningMoveExtra([1,3],[1,2]));
 //Winning move is in column 1 row 1
